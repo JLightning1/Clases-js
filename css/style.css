@@ -1,0 +1,80 @@
+/* Esto es un comentario en css */
+body {
+    background-color: orange;
+}
+
+h1, h3 {
+    color:blue;
+}
+
+/* Ejemplo de selector de tipo */
+h2{
+    color:brown;
+}
+
+/* La propiedo id="var" en html significa que le asiganaras
+una propiedad css a una etiqueta en especifico  */
+
+/* Ejemplo de selector de id */
+#h6_fachero {
+    color: yellow;
+}
+
+/* class="nombre_class" en html sirva para dar propiedades en css
+a varias etiquetas */
+
+/* Ejemplo de selector de clase */
+.clase_facherita {
+    color:red;
+}
+
+.cambiar_tamaño {
+    width: 100px;
+    height: 100px;
+}
+
+.cambiar_tamaño2 {
+    width: 100px;
+    height: 100px;
+}
+
+/* > Significa todos los li que estan dentro de ul */
+/* > en css se llama selector */
+ul > li {
+    color: crimson
+}
+
+/* Ejemplo de selector universal */
+* img {
+    border-style: solid;
+    border-color: blue;
+}
+
+/* Ejemplo de selector de atributo */ 
+[alt] {
+    width: 500px;
+    height: 500px;
+}
+
+/* Los combinadores te permiten combinar selectores */
+/* Ejemplo de combinador adyacente */
+
+/* (selector padre) (combinador) (selector hijo) */
+/* Este combinador solo afecta al hijo directo */
+
+p + h1 {
+    color: brown;
+}
+
+/* .buscador {
+    border-style: dashed;
+    border-color: cornflowerblue;
+} */
+
+/* Combinador general de hermanos: Aplica propiedades css a los hermanos menores que no necesariamente
+sea hijos de un mismo padre */
+p ~ span {
+    border-style: dashed;
+    border-color: blueviolet;
+    border-width: 20px;
+}
